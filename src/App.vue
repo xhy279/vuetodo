@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+  <div class="app">
+    <div class="todo-wrapper">
+      <app-header></app-header>
+    </div>
   </div>
 </template>
 
