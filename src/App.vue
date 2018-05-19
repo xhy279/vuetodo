@@ -3,7 +3,7 @@
     <div class="todo-wrapper">
       <app-header></app-header>
       <todo-input></todo-input>
-      <todo-item v-for="todo in todos" v-bind:todo="todo" v-on:todo:remove="removeTodo" :key="todo.id"></todo-item>
+      <todo-item v-for="todo in todos" v-bind:todo="todo" :key="todo.id"></todo-item>
     </div>
   </div>
 </template>
