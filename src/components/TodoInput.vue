@@ -15,8 +15,9 @@
     },
     methods: {
       addTodo() {
-        this.$emit('todo:add', this.text);
-        this.text = '';
+        var text = this.text;
+				this.$store.commit('ADD_TODO', { text } )
+				this.text  = '';
       }
     }
   }

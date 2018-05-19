@@ -1,6 +1,6 @@
 <template>
   <ul class="todoItem">
-    <li>{{todo.text}} <button v-on:click="removeTodo">Delete</button></li>
+    <li>{{todo.text}} <button v-on:click="removeTodo(todo.id)">Delete</button></li>
   </ul>
 </template>
 <script>
@@ -8,14 +8,9 @@
     name: 'todo-item',
     props: ['todo'],
     methods:{
-      removeTodo() {
-        this.$emit('todo:remove', this.todo.id);
+      removeTodo(id) {
+				this.$store.commit('REMOVE_TODO', { id })
       }
     }
   }
 </script>
-
-
-
-  
-
