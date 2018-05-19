@@ -15,8 +15,7 @@
   }
 </script>
 
-<style>
-  .todoItem {
-    padding-left: 15px;
-  }
-</style>
+
+
+  
+

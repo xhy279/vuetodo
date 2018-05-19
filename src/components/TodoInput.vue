@@ -21,10 +21,3 @@
     }
   }
 </script>
-
-<style>
-  .todo-input input {
-    width: 200px;
-    margin-right: 10px;
-  }
-</style>

@@ -9,4 +9,4 @@
 </template>
 
 <script src='./app.js'></script>
-<style src="./app.css"></style>
+<style lang="scss" src="./app.scss"></style>
